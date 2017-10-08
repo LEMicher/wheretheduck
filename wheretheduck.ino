@@ -16,7 +16,7 @@ const int FORWARD_INST_PIN = 11;
 const int STOP_INST_PIN = 10;
 
 const int ALL_DIGITAL_INPUT_PINS[] = {RIGHT_INST_PIN, LEFT_INST_PIN,
-FORWARD_INST_PIN, STOP_INST_PIN}
+FORWARD_INST_PIN, STOP_INST_PIN};
 
 void goRight(){
   leftServo.writeMicroseconds(SERVO_POSITIVE);
