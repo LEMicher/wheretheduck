@@ -52,16 +52,7 @@ void setup() {
   {
   	pinMode(ALL_DIGITAL_INPUT_PINS[i], INPUT);
   }
-  
-  goForward();
-  delay(1000);
-  goBackward();
-  delay(1000);
-  goRight();
-  delay(1000);
-  goLeft();
-  delay(1000);
-  stopAll();
+
 }
 
 void loop() {	
